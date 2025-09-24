@@ -141,7 +141,7 @@ duckdb
 # - Optional SQLAlchemy dialect for DuckDB.
 # - Needed only if you want DuckDB via SQLAlchemy ORM.
 # Uncomment the line below to install duckdb-engine.
-# duckdb-engine
+duckdb-engine
 
 # SQLAlchemy
 # - Very popular toolkit/ORM to unify DB access across SQLite, Postgres, MySQL, etc.
@@ -159,3 +159,6 @@ duckdb
 # - Needed if DATABASE_TYPE=mysql.
 # Uncomment the line below to install PyMySQL.
 # PyMySQL
+
+PyQt6; sys_platform != "win32"
+six
