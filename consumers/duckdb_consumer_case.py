@@ -50,7 +50,7 @@ def init_db(db_path: pathlib.Path) -> None:
         con.execute(
             """
             CREATE TABLE streamed_messages (
-                id BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY, -- auto-increment
+                id INTEGER PRIMARY KEY,
                 message TEXT,
                 author TEXT,
                 timestamp TEXT,
