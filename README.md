@@ -344,3 +344,84 @@ See the [LICENSE](LICENSE.txt) file for more.
 - Ruff by Astral Software (Linter + Formatter)
 - **SQLite Viewer by Florian Klampfer**
 - WSL by Microsoft (on Windows Machines)
+
+
+---
+
+## Custom Consumer: Keyword Popularity Analysis by Hour
+
+### Overview
+
+This project includes a custom consumer (`consumer_webb.py`) that analyzes keyword popularity patterns throughout the day. The consumer reads streaming messages and tracks when different keywords are most popular by hour of day (0-23).
+
+### What It Does
+
+The consumer processes each JSON message to extract:
+- The hour from the timestamp (0-23)
+- The keyword mentioned in the message
+
+It then maintains a count of how many times each keyword appears during each hour, providing insights into trending patterns throughout the day.
+
+### Why This Analysis Is Valuable
+
+Understanding when certain keywords peak can reveal:
+- Content posting patterns (when people share memes, discuss tech topics, etc.)
+- Optimal timing for content related to specific keywords
+- Daily rhythm patterns in social media conversations
+- Peak engagement hours for different topic categories
+
+### Technical Implementation
+
+**Data Source:** Reads from live data file (`data/project_live.json`)
+
+**Database Schema:**
+- `hour_of_day` (INTEGER): Hour 0-23
+- `keyword` (TEXT): The keyword mentioned
+- `count` (INTEGER): Number of occurrences
+- `last_updated` (TEXT): Timestamp of last update
+
+**Processing Logic:**
+1. Parse JSON message
+2. Extract hour from timestamp using `datetime.strptime()`
+3. Get keyword from `keyword_mentioned` field
+4. Update or insert count in SQLite database using UPSERT pattern
+
+### How to Run
+
+**Start the Producer (in one terminal):**
+```powershell
+py -m producers.producer_case
+```
+
+**Start the Keyword Analysis Consumer (in another terminal):**
+```powershell
+py -m consumers.consumer_webb
+```
+
+The consumer will create `data/keyword_popularity.sqlite` and begin tracking keyword trends in real-time.
+
+### Example Insights
+
+After running for several hours, you might discover patterns like:
+- "Python" discussions peak at 10 AM (work hours)
+- "meme" shares are highest at 3 PM (afternoon break)
+- "recipe" searches increase around 6 PM (dinner time)
+- "game" mentions surge at 8 PM (evening entertainment)
+
+### Database Queries
+
+View top keywords by hour:
+```sql
+SELECT hour_of_day, keyword, count 
+FROM keyword_popularity 
+WHERE hour_of_day = 14 
+ORDER BY count DESC;
+```
+
+Find most active hours overall:
+```sql
+SELECT hour_of_day, SUM(count) as total_activity 
+FROM keyword_popularity 
+GROUP BY hour_of_day 
+ORDER BY total_activity DESC;
+```
