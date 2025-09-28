@@ -1,0 +1,534 @@
+2025-09-28 17:59:44 | INFO | {'message': 'I just shared a meme! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-28 17:59:44', 'category': 'humor', 'sentiment': 0.2, 'keyword_mentioned': 'meme', 'message_length': 38}
+2025-09-28 17:59:49 | INFO | {'message': 'I just saw Python! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 17:59:49', 'category': 'tech', 'sentiment': 0.75, 'keyword_mentioned': 'Python', 'message_length': 32}
+2025-09-28 17:59:54 | INFO | {'message': 'I just loved recipe! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 17:59:54', 'category': 'food', 'sentiment': 0.03, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-09-28 17:59:59 | INFO | {'message': 'I just found a meme! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 17:59:59', 'category': 'humor', 'sentiment': 0.8, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-28 18:00:04 | INFO | {'message': 'I just shared a story! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 18:00:04', 'category': 'other', 'sentiment': 0.94, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-28 18:00:09 | INFO | {'message': 'I just tried game! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 18:00:09', 'category': 'gaming', 'sentiment': 0.28, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-28 18:00:14 | INFO | {'message': 'I just loved a movie! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-28 18:00:14', 'category': 'entertainment', 'sentiment': 0.48, 'keyword_mentioned': 'movie', 'message_length': 38}
+2025-09-28 18:00:19 | INFO | {'message': 'I just shared a movie! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:00:19', 'category': 'entertainment', 'sentiment': 0.3, 'keyword_mentioned': 'movie', 'message_length': 38}
+2025-09-28 18:00:24 | INFO | {'message': 'I just found recipe! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:00:24', 'category': 'food', 'sentiment': 0.16, 'keyword_mentioned': 'recipe', 'message_length': 36}
+2025-09-28 18:00:29 | INFO | {'message': 'I just shared Python! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 18:00:29', 'category': 'tech', 'sentiment': 0.89, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-28 18:00:34 | INFO | {'message': 'I just found Python! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 18:00:34', 'category': 'tech', 'sentiment': 0.22, 'keyword_mentioned': 'Python', 'message_length': 36}
+2025-09-28 18:00:39 | INFO | {'message': 'I just shared Python! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 18:00:39', 'category': 'tech', 'sentiment': 0.16, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-28 18:00:44 | INFO | {'message': 'I just shared JavaScript! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:00:44', 'category': 'tech', 'sentiment': 0.96, 'keyword_mentioned': 'JavaScript', 'message_length': 42}
+2025-09-28 18:00:49 | INFO | {'message': 'I just found JavaScript! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 18:00:49', 'category': 'tech', 'sentiment': 0.83, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-28 18:00:54 | INFO | {'message': 'I just shared game! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-28 18:00:54', 'category': 'gaming', 'sentiment': 0.59, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-28 18:00:59 | INFO | {'message': 'I just found a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:00:59', 'category': 'humor', 'sentiment': 0.92, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-28 18:01:04 | INFO | {'message': 'I just saw a movie! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:01:04', 'category': 'entertainment', 'sentiment': 0.56, 'keyword_mentioned': 'movie', 'message_length': 33}
+2025-09-28 18:01:09 | INFO | {'message': 'I just found Python! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 18:01:09', 'category': 'tech', 'sentiment': 0.38, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-28 18:01:14 | INFO | {'message': 'I just loved a meme! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:01:14', 'category': 'humor', 'sentiment': 0.94, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-28 18:01:19 | INFO | {'message': 'I just shared a meme! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 18:01:19', 'category': 'humor', 'sentiment': 0.42, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-28 18:01:24 | INFO | {'message': 'I just tried JavaScript! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 18:01:24', 'category': 'tech', 'sentiment': 0.56, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-28 18:01:29 | INFO | {'message': 'I just shared game! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 18:01:29', 'category': 'gaming', 'sentiment': 0.92, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-28 18:01:34 | INFO | {'message': 'I just found an app! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:01:34', 'category': 'other', 'sentiment': 0.56, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-28 18:01:39 | INFO | {'message': 'I just tried travel! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:01:39', 'category': 'travel', 'sentiment': 0.41, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-28 18:01:44 | INFO | {'message': 'I just saw JavaScript! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:01:44', 'category': 'tech', 'sentiment': 0.38, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-28 18:01:49 | INFO | {'message': 'I just loved a movie! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 18:01:49', 'category': 'entertainment', 'sentiment': 0.04, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-28 18:01:54 | INFO | {'message': 'I just saw recipe! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 18:01:54', 'category': 'food', 'sentiment': 0.54, 'keyword_mentioned': 'recipe', 'message_length': 33}
+2025-09-28 18:01:59 | INFO | {'message': 'I just found a story! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:01:59', 'category': 'other', 'sentiment': 0.16, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-28 18:02:04 | INFO | {'message': 'I just tried JavaScript! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 18:02:04', 'category': 'tech', 'sentiment': 0.07, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-28 18:02:09 | INFO | {'message': 'I just saw recipe! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:02:09', 'category': 'food', 'sentiment': 0.64, 'keyword_mentioned': 'recipe', 'message_length': 32}
+2025-09-28 18:02:14 | INFO | {'message': 'I just saw a trick! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:02:14', 'category': 'other', 'sentiment': 0.66, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-09-28 18:02:19 | INFO | {'message': 'I just tried game! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:02:19', 'category': 'gaming', 'sentiment': 0.37, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-28 18:02:24 | INFO | {'message': 'I just shared an app! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 18:02:24', 'category': 'other', 'sentiment': 0.22, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-28 18:02:29 | INFO | {'message': 'I just loved travel! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:02:29', 'category': 'travel', 'sentiment': 0.91, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-28 18:02:34 | INFO | {'message': 'I just found Python! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 18:02:34', 'category': 'tech', 'sentiment': 0.51, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-28 18:02:39 | INFO | {'message': 'I just loved a meme! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 18:02:39', 'category': 'humor', 'sentiment': 0.34, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-28 18:02:44 | INFO | {'message': 'I just loved a story! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 18:02:44', 'category': 'other', 'sentiment': 0.93, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-28 18:02:50 | INFO | {'message': 'I just found travel! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:02:50', 'category': 'travel', 'sentiment': 0.76, 'keyword_mentioned': 'travel', 'message_length': 36}
+2025-09-28 18:02:55 | INFO | {'message': 'I just shared game! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 18:02:55', 'category': 'gaming', 'sentiment': 0.96, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-28 18:03:00 | INFO | {'message': 'I just saw Python! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 18:03:00', 'category': 'tech', 'sentiment': 0.56, 'keyword_mentioned': 'Python', 'message_length': 33}
+2025-09-28 18:03:05 | INFO | {'message': 'I just tried an app! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-28 18:03:05', 'category': 'other', 'sentiment': 0.41, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-28 18:03:10 | INFO | {'message': 'I just loved recipe! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 18:03:10', 'category': 'food', 'sentiment': 0.16, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-09-28 18:03:15 | INFO | {'message': 'I just loved an app! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 18:03:15', 'category': 'other', 'sentiment': 0.68, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-28 18:03:20 | INFO | {'message': 'I just shared game! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 18:03:20', 'category': 'gaming', 'sentiment': 0.2, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-28 18:03:25 | INFO | {'message': 'I just found a meme! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 18:03:25', 'category': 'humor', 'sentiment': 0.56, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-28 18:03:30 | INFO | {'message': 'I just saw a story! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:03:30', 'category': 'other', 'sentiment': 0.45, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-09-28 18:03:35 | INFO | {'message': 'I just tried recipe! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 18:03:35', 'category': 'food', 'sentiment': 0.32, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-28 18:03:40 | INFO | {'message': 'I just tried an app! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 18:03:40', 'category': 'other', 'sentiment': 0.82, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-28 18:03:45 | INFO | {'message': 'I just found a meme! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 18:03:45', 'category': 'humor', 'sentiment': 0.57, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-28 18:03:50 | INFO | {'message': 'I just tried an app! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 18:03:50', 'category': 'other', 'sentiment': 0.23, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-28 18:03:55 | INFO | {'message': 'I just shared a movie! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 18:03:55', 'category': 'entertainment', 'sentiment': 0.24, 'keyword_mentioned': 'movie', 'message_length': 36}
+2025-09-28 18:03:59 | INFO | Logging to file: logs/project_log.log
+2025-09-28 18:03:59 | INFO | Log sanitization enabled, personal info removed
+2025-09-28 18:03:59 | INFO | Starting Keyword Popularity Consumer to run continuously.
+2025-09-28 18:03:59 | INFO | This consumer tracks when different keywords are most popular.
+2025-09-28 18:03:59 | INFO | STEP 1. Read environment variables using config functions.
+2025-09-28 18:03:59 | INFO | MESSAGE_INTERVAL_SECONDS: 5
+2025-09-28 18:03:59 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-webb/data
+2025-09-28 18:03:59 | INFO | LIVE_DATA_PATH: C:/Users/USER/Documents/buzzline-05-webb/data/project_live.json
+2025-09-28 18:03:59 | INFO | BASE_DATA_DIR: C:/Users/USER/Documents/buzzline-05-webb/data
+2025-09-28 18:03:59 | INFO | SUCCESS: Read environment variables.
+2025-09-28 18:03:59 | INFO | STEP 2. Delete any prior database file for a fresh start.
+2025-09-28 18:03:59 | INFO | SUCCESS: Deleted previous keyword database file.
+2025-09-28 18:03:59 | INFO | STEP 3. Initialize a new keyword database with an empty table.
+2025-09-28 18:03:59 | INFO | Calling keyword init_db() with {db_path=}.
+2025-09-28 18:03:59 | INFO | SUCCESS: Got a cursor to execute SQL.
+2025-09-28 18:03:59 | INFO | SUCCESS: Keyword database initialized and table ready at C:/Users/USER/Documents/buzzline-05-webb/data/keyword_popularity.sqlite.
+2025-09-28 18:03:59 | INFO | STEP 4. Begin consuming and analyzing keyword popularity.
+2025-09-28 18:03:59 | INFO | Called consume_messages_from_file() with:
+2025-09-28 18:03:59 | INFO |    live_data_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-webb/data/project_live.json')
+2025-09-28 18:03:59 | INFO |    sql_path=WindowsPath('C:/Users/USER/Documents/buzzline-05-webb/data/keyword_popularity.sqlite')
+2025-09-28 18:03:59 | INFO |    interval_secs=5
+2025-09-28 18:03:59 | INFO |    last_position=0
+2025-09-28 18:03:59 | INFO | 1. Initialize the keyword database.
+2025-09-28 18:03:59 | INFO | Calling keyword init_db() with {db_path=}.
+2025-09-28 18:03:59 | INFO | SUCCESS: Got a cursor to execute SQL.
+2025-09-28 18:03:59 | INFO | SUCCESS: Keyword database initialized and table ready at C:/Users/USER/Documents/buzzline-05-webb/data/keyword_popularity.sqlite.
+2025-09-28 18:03:59 | INFO | 2. Set the last position to 0 to start at the beginning of the file.
+2025-09-28 18:03:59 | INFO | 3. Read from live data file at position 0.
+2025-09-28 18:03:59 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:03:59 | INFO | Inserted new keyword record: movie at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='travel' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=travel
+2025-09-28 18:03:59 | INFO | Inserted new keyword record: travel at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Inserted new keyword record: JavaScript at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='travel' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=travel
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: travel at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:03:59 | INFO | Inserted new keyword record: game at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:03:59 | INFO | Inserted new keyword record: Python at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Inserted new keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:03:59 | INFO | Inserted new keyword record: recipe at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='travel' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=travel
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: travel at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='meme' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=meme
+2025-09-28 18:03:59 | INFO | Inserted new keyword record: meme at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='travel' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=travel
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: travel at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='travel' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=travel
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: travel at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='meme' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=meme
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: meme at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='meme' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=meme
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: meme at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='travel' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=travel
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: travel at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='travel' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=travel
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: travel at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='travel' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=travel
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: travel at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='meme' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=meme
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: meme at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='travel' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=travel
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: travel at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='meme' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=meme
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: meme at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='travel' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=travel
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: travel at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='travel' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=travel
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: travel at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:03:59 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:03:59 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:03:59 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='meme' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=meme
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: meme at hour 17
+2025-09-28 18:04:00 | INFO | {'message': 'I just loved recipe! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 18:04:00', 'category': 'food', 'sentiment': 0.82, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-09-28 18:04:00 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='travel' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=travel
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: travel at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='recipe' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=recipe
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: recipe at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='game' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=game
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: game at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='other' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=other
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: other at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='movie' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=movie
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: movie at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='Python' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=Python
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: Python at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='JavaScript' at hour=17
+2025-09-28 18:04:00 | INFO | Updating keyword count: hour=17, keyword=JavaScript
+2025-09-28 18:04:00 | INFO | Updated existing keyword record: JavaScript at hour 17
+2025-09-28 18:04:00 | INFO | Processed message: keyword='meme' at hour=17
